@@ -1,0 +1,137 @@
+body {
+    background: #f7f7f7;
+    font-family: Arial, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-background {
+    padding-top: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #c6c6c6;
+    width: 448px;
+    height: 682px;
+    border-radius: 4px;
+    margin-top: 114px;
+}
+
+.form-logo {
+    width: 380px;
+    height: 180px;
+    background: #000;
+    border-radius: 4px;
+}
+
+.form-title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 33px;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-mail {
+    border-radius: 10px;
+    width: 382px;
+    margin-bottom: 16px;
+    height: 36px;
+    border: 1px solid #000;
+}
+
+.input-password {
+    border-radius: 10px;
+    width: 382px;
+    height: 36px;
+    border: 1px solid #000;
+}
+
+.options-login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 36px;
+}
+
+.forgot-pass {
+    color: #008642;
+    text-decoration: none;
+}
+
+.submit-button {
+    height: 36px;
+    width: 382px;
+    background: #008642;;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.line-divide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+.line-divide span {
+    text-align: center;
+    width: 100%;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: #000;
+}
+
+.social-media-login-button-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.social-media-login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background: #fff;
+}
+
+.social-media-login-button-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 180px;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-footer span{
+    color: #008642;
+    font-weight: bold;
+}
